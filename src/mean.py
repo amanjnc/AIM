@@ -1,7 +1,5 @@
 import pandas as pd
-
-
-
+data = pd.read_csv('data/benin-malanville.csv')
 
 def summaryStatistics(loaded_data):
 
@@ -12,7 +10,6 @@ def summaryStatistics(loaded_data):
         print(statistics_table)
 
 
-data = pd.read_csv('data/benin-malanville.csv')
 
 summaryStatistics(data)
     

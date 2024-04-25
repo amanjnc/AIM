@@ -33,9 +33,7 @@ data = pd.read_csv('data/benin-malanville.csv')
 
 checkIncorrectEntry(data)
 
-
 # I used  z-scores for GHI column
-
 def checkOutlier(dataset):
         
     
